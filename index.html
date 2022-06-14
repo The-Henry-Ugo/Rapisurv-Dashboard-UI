@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Rapisurv Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+ <!-- icons -->
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<link rel="icon" type="image/png" sizes="132x64" href="assets/images/favicon.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="container">
+  <nav id="navbar">
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <div class="hamburger_menu" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </label>
+    <label class="welcome"><a href="index.html">
+      <div class="logo-img">
+      <img src="assets/images/nnamdi.jpg" alt=""></a>
+    </div>
+      <div class="welcome_user">
+        <p class="hello">Hello Olalekan,</p>
+        <p class="hello_sub">Welcome back!</p>
+      </div>
+    </label>
+    <ul class="menu-board">
+      <p>NAVIGATION</p>
+      <li><ion-icon name="home-outline"></ion-icon><a href="#" class="active-nav">Home</a></li>
+      <li><ion-icon name="person-outline"></ion-icon><a href="#">Account</a></li>
+      <li><ion-icon name="chatbubble-ellipses-outline"></ion-icon><a href="#">Messages</a></li>    
+      
+      <div class=social-icons>
+        <span><a class=facebook href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="mail-outline"></ion-icon></a></span>
+        <span><a class=instagram href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-dribbble"></ion-icon></a></span>
+        <span><a class=twitter href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin"></ion-icon></a></span>
+        <span><a class=instagram href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-instagram"></ion-icon></a></span>
+        </div>
+    </ul>
+  </nav> 
+</div>
+
+  <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+       <div class="row gx-1 gy-5">
+         <div class="col-md-8">
+          <h5 class="section_header">Applications</h5>
+            <div class="app_cards">
+              <div class="cards">
+                <img src="assets/images/Takeoff.png" alt="">
+                <div class="app_name small-p">
+                  <p>Takeoff</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Billing.png" class="bill-img" alt="">
+                <div class="app_name small-p">
+                  <p>Billing</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Estimating.png" alt="">
+                <div class="app_name small-p">
+                  <p>Estimating</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Material.png" alt="">
+                <div class="app_name small-p">
+                  <p>Material</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Tender.png" alt="">
+                <div class="app_name small-p">
+                  <p>Tender</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Bid&Contract.png" alt="">
+                <div class="app_name">
+                  <p>Bid & Contract</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/Valuation.png" alt="">
+                <div class="app_name">
+                  <p>Valuation & Variation</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+              <div class="cards">
+                <img src="assets/images/RateSheet.png" alt="">
+                <div class="app_name small-p">
+                  <p>Rate Sheet</p>
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+              </div>
+            </div>
+         </div>
+         <div class="col-md-4">
+          <h5 class="section_header">Recent Projects</h5>
+          <table class="rwd-table">
+            <tbody>
+              <tr>
+                <th>ID</th>
+                <th>Project Name</th>
+                <th>Application</th>
+              </tr>
+              <tr>
+                <td data-th="ID">
+                  UPS5005
+                </td>
+                <td data-th="Project Name">
+                  UPS
+                </td>
+                <td data-th="Application">
+                  Estimating
+                </td>
+               
+              </tr>
+              <tr>
+                <td data-th="ID">
+                  UPS3449
+                </td>
+                <td data-th="Project Name">
+                  UPS South Inc.
+                </td>
+                <td data-th="Application">
+                  Takeoff
+                </td>
+               
+              </tr>
+              <tr>
+                <td data-th="ID">
+                  BOX5599
+                </td>
+                <td data-th="Project Name">
+                  BOX Pro West
+                </td>
+                <td data-th="Application">
+                  Billing
+                </td>
+              
+              </tr>
+              <tr>
+                <td data-th="ID">
+                  PAN9999
+                </td>
+                <td data-th="Project Name">
+                  Pan Providers and Co.
+                </td>
+                <td data-th="Application">
+                  Rate Sheet
+                </td>
+               
+              </tr>
+            </tbody>
+          </table>
+    </div>
+       </div>
+     </div>
+    </section>
+
+    <section id="graph">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="graph_header">
+            <h5 class="section_header">Project Chart</h5>
+            <div class="graph_select">
+            <select>
+              <option selected disabled>Data Source</option>
+              <option value="">Billing</option>
+              <option value="">Bid & Contract</option>
+              <option value="">Estimating</option>
+              <option value="">Material</option>
+              <option value="">Rate Sheet</option>
+              <option value="">Takeoff</option>
+              <option value="">Tender</option>
+              <option value="">Valuation</option>
+            </select>
+
+            <select>
+              <option selected disabled>Select Graph</option>
+              <option value="">Bar Chart</option>
+              <option value="">Bar Graph</option>
+              <option value="">Pie Chart</option>
+            </select>
+          </div>
+          </div>
+          <img src="assets/images/graph.png" alt="" class="graph_img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="messages_pane">
+      <div class="sticky_div">
+        <div class="sticky_header">
+          <p>Messages</p>
+          <div class="message_icons">
+            <ion-icon name="open-outline"></ion-icon>
+            <ion-icon name="create-outline"></ion-icon>
+            <ion-icon class="down_arrow" onclick="arrow()" name="arrow-down-outline"></ion-icon>
+            <ion-icon class="up_arrow" onclick="arrow2()" name="arrow-up-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="message_content">
+          <img src="assets/images/twin-towers.png" alt="">
+          <div class="message_name_text">
+            <p class="groupname">Twin Towers Foundation Rearrangement</p>
+            <p class="typing">Akachi is typing...</p>
+          </div>
+          <div class="msg_time_unread">
+            <p class="msg_time">13:02 PM</p>
+            <p class="msg_unread">1</p>
+          </div>
+        </div>
+        <div class="message_content">
+          <img src="assets/images/bridge.png" alt="">
+          <div class="message_name_text">
+            <p class="groupname">Third Mainland Bridge Construction</p>
+            <p class="last_msg">Yes sir, I was expecting</p>
+          </div>
+          <div class="msg_time_unread">
+            <p class="msg_time">12:14 PM</p>
+            <p class="msg_unread">1</p>
+          </div>
+        </div>
+        <div class="message_content">
+          <img src="assets/images/bridge-re.png" alt="">
+          <div class="message_name_text">
+            <p class="groupname">Ojuelegba Bridge Reconstruction</p>
+            <p class="last_msg">Recieved, Thank you.</p>
+          </div>
+          <div class="msg_time_unread">
+            <p class="msg_time">May 17</p>
+            <!-- <p class="msg_unread">1</p> -->
+          </div>
+        </div>
+      </div>
+  </section>
+        <script src="js/script.js"></script>
+        </body>
+        </html> 
