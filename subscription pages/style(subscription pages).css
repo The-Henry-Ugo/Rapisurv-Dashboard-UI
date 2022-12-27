@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter" !important;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+body,
+html {
+  scroll-behavior: smooth;
+  background-color: #fff !important;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  background: rgb(255, 255, 255);
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  display: none;
+  max-height: 500px;
+  background: #ffffff;
+  border-radius: 50px;
+}
+/* ::-webkit-scrollbar-thumb {
+  background: #191919;
+  border-radius: 10px;
+} */
+p {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+.containers {
+  max-width: 1000px;
+  margin: 80px auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_info_expanded {
+  width: 100%;
+  padding: 0 40px;
+}
+
+.transaction_info_expanded {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.transaction_info_expanded h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #2f2f2f;
+}
+
+.sub_info_profile_price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.sub_info_price_status p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.sub_info_price_status .live,
+.sub_info_price_status .pending,
+.sub_info_price_status .expired {
+  text-align: right;
+}
+
+.sub_info_profile {
+  display: flex;
+}
+
+.sub_info_profile_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.sub_info_profile_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sub_info_profile_text {
+  margin-left: 20px;
+}
+
+.sub_info_email {
+  margin-top: -16px;
+  color: #8c8c8c;
+  font-size: 16px;
+}
+
+.sub_info_name {
+  color: #343434;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.sub_info_product_details_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.sub_info_product_details h4,
+.sub_info_item_details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #2f2f2f;
+}
+
+.sub_info_product_name {
+  font-weight: bold;
+  color: #2f2f2f;
+  font-size: 16px;
+}
+
+.sub_info_product_plan {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.sub_info_product_tip {
+  font-size: 14px;
+  color: #afafaf;
+}
+
+.sub_info_product_price_duration {
+  font-size: 14px;
+  color: #afafaf;
+  text-align: right;
+}
+
+.sub_info_product_price_text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.sub_info_item_details_flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.sub_info_item_details_flex p {
+  font-size: 16px;
+}
+
+.sub_info_item_details_flex .sub_date_time {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.sub_info_item_details_flex_result {
+  font-weight: bold;
+}
+
+.sub_container {
+  min-width: 800px;
+  max-width: 1500px;
+  overflow-x: scroll;
+  position: relative;
+  /* max-height: 1000px; */
+  padding: 50px 5vmin;
+  /* box-shadow: -1px 11px 47px -10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: -1px 11px 47px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -1px 11px 47px -10px rgba(0, 0, 0, 0.3); */
+}
+
+.sub_table {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.sub_content {
+  margin-top: 30px;
+}
+
+.sub_head h5 {
+  color: #626262;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.live {
+  color: #fff;
+  background: #78d97b;
+  border-radius: 50px;
+  padding: 5px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.pending {
+  color: #fff;
+  background: #edbd13;
+  border-radius: 50px;
+  padding: 5px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.expired {
+  color: #fff;
+  background: #b82b17;
+  border-radius: 50px;
+  padding: 5px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#hero h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sub_breadcrumb {
+  font-size: 16px;
+  color: #858585;
+  line-height: 28px;
+}
+
+.sub_breadcrumb span {
+  color: #1d1d1d;
+}
+
+.sub_date_time {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.sub_date_time p {
+  font-size: 16px;
+}
+
+.sub_details_date_time {
+  margin-top: 20px;
+}
+
+.sub_details_date_time p {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.sub_scroll_alert {
+  display: flex;
+  color: #858585;
+}
+
+.sub_scroll_alert p {
+  font-size: 16px;
+}
+
+.sub_scroll_alert ion-icon {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.sub_date_time ion-icon {
+  margin-top: 3px;
+}
+
+.sub_email {
+  color: #0057ff;
+  font-size: 16px;
+}
+
+.transaction_inv {
+  color: #0057ff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.transaction_inv_detail {
+  font-size: 16px;
+}
+
+.transaction_id,
+.transaction_payment_method,
+.transaction_card_last_4_numbers,
+.transaction_gateway_id {
+  font-size: 16px;
+}
+
+.sub_email_head {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.sub_plan_product {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 601px) {
+  .rwd-table tr:nth-child(2) {
+    border-top: none;
+  }
+  .sub_info_item_details_flex {
+    flex-direction: column;
+  }
+  .sub_info_product_details_flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .sub_info_product_price_duration {
+    text-align: left;
+  }
+
+  .sub_info_profile_price {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .containers {
+    padding: 0 30px;
+  }
+  .sub_info_expanded {
+    padding: 0;
+  }
+
+  .sub_container {
+    padding: 50px 2vmin;
+  }
+}

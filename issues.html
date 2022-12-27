@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Rapisurv Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+ <!-- icons -->
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<link rel="icon" type="image/png" sizes="132x64" href="assets/images/favicon.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <div class="hamburger_menu" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </label>
+    <label class="welcome"><a href="index.html">
+      <div class="logo-img">
+      <img src="assets/images/nnamdi.jpg" alt=""></a>
+    </div>
+      <div class="welcome_user">
+        <p class="hello">Hello Olalekan,</p>
+        <p class="hello_sub">Welcome back!</p>
+      </div>
+    </label>
+    <ul class="menu-board">
+      <li><ion-icon name="home-outline"></ion-icon><a href="#" class="active-nav">Home</a></li>
+      <li><ion-icon name="person-outline"></ion-icon><a href="#">Account</a></li>
+      <li><ion-icon name="chatbubble-ellipses-outline"></ion-icon><a href="messages.html">Messages</a></li>    
+      <li><ion-icon name="create-outline"></ion-icon><a href="#">Issues</a></li>    
+    </ul>
+  </nav> 
+
+  <!-- Hero Section -->
+    <section id="hero">
+        <div class="container_table">
+
+          <div class="issues_page_header">
+            <div class="issues_search">
+              <div class="messages-page__search search_bar">
+                <div class="custom-form__search-wrapper">
+                  <input type="text" class="form-control custom-form" id="search" placeholder="Search by Title, Date or Project">
+
+                </div>
+              </div>
+              <div class="issues_entries">
+                <p>View</p>
+                <div class="input_field select_option">
+                  <select>
+                    <option selected disabled>All Entries</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Denied">Denied</option>
+                    <option value="Awaiting Approval">Awaiting Approval</option>
+                  </select>
+                  <div class="select_arrow"></div>
+                </div> 
+              </div>
+            </div>
+
+            <button>Create an Issue</button>
+
+          </div>
+  
+          <div class="issues_container">
+            <div class="change_order_container">
+              <div class="issue_content">
+                <ion-icon name="close-circle" class="close_circle"></ion-icon>
+                <p class="need_header">Fix Estimate pricing</p>
+                <p class="issue_date_created">March 15, 2022</p>
+                <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+              </div>
+              <div class="co_div">
+                <ion-icon name="information-circle-outline"></ion-icon>
+                <p>Marked as change order</p>
+              </div>
+            </div>
+          
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Fix Billing pricing</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Denied</p><ion-icon name="close-circle-outline" class="denied_issue_check"></ion-icon></a>
+            </div>
+        
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Work on project Rate sheet</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Awaiting approval</p><ion-icon name="time-outline" class="waiting_issue_check"></ion-icon></a>
+            </div>
+         
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Work on project Rate sheet</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+            </div>
+         
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Fix Takeoff pricing</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+            </div>
+         
+            <div class="change_order_container">
+              <div class="issue_content">
+                <ion-icon name="close-circle" class="close_circle"></ion-icon>
+                <p class="need_header">Fix Estimate pricing</p>
+                <p class="issue_date_created">March 15, 2022</p>
+                <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+              </div>
+              <div class="co_div">
+                <ion-icon name="information-circle-outline"></ion-icon>
+                <p>Marked as change order</p>
+              </div>
+            </div>
+         
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Fix Estimate pricing</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+            </div>
+         
+            <div class="issue_content">
+              <ion-icon name="close-circle" class="close_circle"></ion-icon>
+              <p class="need_header">Fix Estimate pricing</p>
+              <p class="issue_date_created">March 15, 2022</p>
+              <a href="#" class="issue_status"><p>Approved</p><ion-icon name="checkmark-circle-outline" class="approved_issue_check"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+        <script src="js/script.js"></script>
+        </body>
+        </html> 

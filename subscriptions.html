@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Rapisurv Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+ <!-- icons -->
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<link rel="icon" type="image/png" sizes="132x64" href="assets/images/favicon.png">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav id="navbar">
+    <input type="checkbox" id="check" />
+    <label for="check" class="checkbtn">
+      <div class="hamburger_menu" id="toggle">
+        <span class="top"></span>
+        <span class="middle"></span>
+        <span class="bottom"></span>
+      </div>
+    </label>
+    <label class="welcome"><a href="index.html">
+      <div class="logo-img">
+      <img src="assets/images/nnamdi.jpg" alt=""></a>
+    </div>
+      <div class="welcome_user">
+        <p class="hello">Hello Olalekan,</p>
+        <p class="hello_sub">Welcome back!</p>
+      </div>
+    </label>
+    <ul class="menu-board">
+      <li><ion-icon name="home-outline"></ion-icon><a href="#" class="active-nav">Home</a></li>
+      <li><ion-icon name="person-outline"></ion-icon><a href="#">Account</a></li>
+      <li><ion-icon name="chatbubble-ellipses-outline"></ion-icon><a href="messages.html">Messages</a></li>    
+    </ul>
+  </nav> 
+
+  <!-- Hero Section -->
+    <section id="hero">
+      <div class="container"><h3>My Subscriptions</h3>
+        <p class="sub_breadcrumb">User Home / Account / <span>Subscriptions</span></p></div>
+      <div class="table-responsive">
+        <table class="table">
+          <div class="sub_container">
+            <div class="sub_scroll_alert">
+              <p class="sub_scroll_text">Scroll to explore</p> 
+              <ion-icon name="arrow-back-outline"></ion-icon>
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="sub_table">
+              <div class="sub_category">
+                <div class="sub_head"><h5>Date</h5></div>
+                <div class="sub_content">
+                  <span class="live">Live</span>
+                  <div class="sub_date_time">
+                    <p>Mar 03, 2022</p>
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p>13:14 PM</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>Email</h5></div>
+                <div class="sub_content">
+                  <p class="sub_email">isekitllc@gmail.com</p>
+                  <p class="sub_email_head">ISEKIT LLC</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>PRODUCT / PLAN</h5></div>
+                <div class="sub_content">
+                  <p class="sub_plan_product">Variation & Valuation</p>
+                  <p class="sub_plan_type_duration">VAB - Team (Lifetime)</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>LAST BILL</h5></div>
+                <div class="sub_content">
+                  <p class="sub_date">Mar 03, 2022  </p>
+                  <p class="sub_due_date">Mar 03, ~</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>AMOUNT</h5></div>
+                <div class="sub_content">
+                  <p class="sub_amount">₦ 2,800,000</p>
+                  <p class="sub_payment_mode">Bank Transfer</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Sub -->
+            <div class="sub_table">
+              <div class="sub_category">
+                <div class="sub_head"><h5>Date</h5></div>
+                <div class="sub_content">
+                  <span class="pending">Pending</span>
+                  <div class="sub_date_time">
+                    <p>Mar 03, 2022</p>
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p>13:14 PM</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>Email</h5></div>
+                <div class="sub_content">
+                  <p class="sub_email">isekitllc@gmail.com</p>
+                  <p class="sub_email_head">ISEKIT LLC</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>PRODUCT / PLAN</h5></div>
+                <div class="sub_content">
+                  <p class="sub_plan_product">Variation & Valuation</p>
+                  <p class="sub_plan_type_duration">VAB - Team (Lifetime)</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>LAST BILL</h5></div>
+                <div class="sub_content">
+                  <p class="sub_date">Mar 03, 2022  </p>
+                  <p class="sub_due_date">Mar 03, ~</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>AMOUNT</h5></div>
+                <div class="sub_content">
+                  <p class="sub_amount">₦ 2,800,000</p>
+                  <p class="sub_payment_mode">Bank Transfer</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Third Sub -->
+            <div class="sub_table">
+              <div class="sub_category">
+                <div class="sub_head"><h5>Date</h5></div>
+                <div class="sub_content">
+                  <span class="expired">Expired</span>
+                  <div class="sub_date_time">
+                    <p>Mar 03, 2022</p>
+                    <ion-icon name="time-outline"></ion-icon>
+                    <p>13:14 PM</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>Email</h5></div>
+                <div class="sub_content">
+                  <p class="sub_email">isekitllc@gmail.com</p>
+                  <p class="sub_email_head">ISEKIT LLC</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>PRODUCT / PLAN</h5></div>
+                <div class="sub_content">
+                  <p class="sub_plan_product">Variation & Valuation</p>
+                  <p class="sub_plan_type_duration">VAB - Team (Lifetime)</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>LAST BILL</h5></div>
+                <div class="sub_content">
+                  <p class="sub_date">Mar 03, 2022  </p>
+                  <p class="sub_due_date">Mar 03, ~</p>
+                </div>
+              </div>
+    
+              <div class="sub_category">
+                <div class="sub_head"><h5>AMOUNT</h5></div>
+                <div class="sub_content">
+                  <p class="sub_amount">₦ 2,800,000</p>
+                  <p class="sub_payment_mode">Bank Transfer</p>
+                </div>
+              </div>
+            </div>
+           </div>
+        </table>
+      </div>
+    </section>
+
+
+
+        <script src="js/script.js"></script>
+        </body>
+        </html> 
