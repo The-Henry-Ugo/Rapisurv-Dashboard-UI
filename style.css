@@ -794,9 +794,9 @@ nav ul li:hover {
 
 button:hover {
   background: transparent;
-  color: #fff;
-  mix-blend-mode: difference;
-  border: 1px #fff solid;
+  color: #0c0c0c;
+  cursor: pointer;
+  border: 1px #0c0c0c solid;
 }
 
 .hero-group {
@@ -1095,9 +1095,7 @@ button:hover {
   outline: none;
   border: none;
 }
-.custom-form__send-submit:hover {
-  background-color: #1a7ee6;
-}
+
 .custom-form__send-img {
   position: absolute;
   top: 50%;

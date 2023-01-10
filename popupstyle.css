@@ -473,3 +473,23 @@ a {
   margin: 30px auto 0 auto;
   transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.two_button_options a {
+  text-align: center;
+  background: #10b981;
+  max-width: 40%;
+  min-width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px !important;
+  outline: none;
+  border: none;
+  border-radius: 50px !important;
+  font-family: "Inter" !important;
+  padding: 10px;
+  margin: 30px auto 0 auto;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
